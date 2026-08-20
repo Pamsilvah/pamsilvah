@@ -50,50 +50,11 @@ Currently learning, building projects and growing as a developer.
 
 <h3>♡ system_heart.py</h3>
 
-```python
-import turtle
-import math
-import random
 
-screen = turtle.Screen()
-screen.bgcolor("#0D090A")
+<div align="center">
 
-heart = turtle.Turtle()
-heart.speed(0)
-heart.hideturtle()
-heart.pensize(1)
+<img src="./heart.svg" width="300">
 
-colors = [
-    "#C94F6D",
-    "#D98FA3",
-    "#F5E9D8",
-    "#B84A62"
-]
-
-for i in range(120):
-
-    heart.penup()
-    heart.goto(0, 40)
-
-    angle = i * (math.pi * 2) / 120
-
-    x = 16 * (math.sin(angle) ** 3) * 15
-
-    y = (
-        13 * math.cos(angle)
-        - 5 * math.cos(2 * angle)
-        - 2 * math.cos(3 * angle)
-        - math.cos(4 * angle)
-    ) * 15
-
-    heart.color(random.choice(colors))
-
-    heart.pendown()
-    heart.goto(x, y)
-
-    for _ in range(8):
-        heart.forward(6)
-        heart.backward(6)
-        heart.right(45)
+</div>
 
 turtle.done()
