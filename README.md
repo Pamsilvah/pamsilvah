@@ -1,45 +1,99 @@
+<div align="center">
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:1A1012,50:6B2737,100:D98FA3&text=SRTA.%20PAMELA%20SILVA&fontSize=38&fontColor=F5E9D8&fontAlignY=40&animation=fadeIn&desc=Systems%20Development%20Technician&descAlignY=62&descSize=16&descColor=F5E9D8" width="100%"/><br><img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=500&size=18&duration=3000&pause=1000&color=D98FA3&center=true&vCenter=true&width=650&lines=Python+%7C+MySQL+%7C+JavaScript;Building+ideas+into+projects.;Always+learning+something+new." /><br><br>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=170&color=0:0D090A,55:3A121D,100:C94F6D&text=PAMELA%20SILVA&fontSize=42&fontColor=F5E9D8&fontAlignY=42&animation=fadeIn&desc=SYSTEMS%20DEVELOPMENT%20TECHNICIAN&descAlignY=65&descSize=15&descColor=D98FA3" width="100%"/>
 
-       ♡
-      ♡♡♡
-     ♡♡♡♡♡
-    ♡♡♡♡♡♡♡
-    ♡♡♡♡♡♡♡
-     ♡♡♡♡♡
-      ♡♡♡
-       ♡
-
-</div><br><h2 align="center">♡ Sobre mim</h2><p align="center">
-Estudante de <b>Análise e Desenvolvimento de Sistemas</b>, apaixonada por tecnologia,
 <br>
-desenvolvimento de software e criação de soluções.
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=17&duration=3200&pause=1000&color=D98FA3&center=true&vCenter=true&width=650&lines=Python+%7C+MySQL+%7C+JavaScript;Building+ideas+into+projects.;Learning.+Creating.+Evolving." />
+
+</div>
+
+<br>
+
+<h2 align="center">♡ About Me</h2>
+
+<p align="center">
+Systems Development student passionate about technology,
+<br>
+software development and creating meaningful solutions.
 <br><br>
-Atualmente focada em aprender, construir e evoluir como desenvolvedora.
-</p><br><h2 align="center">✦ Tecnologias</h2><div align="center"><img src="https://skillicons.dev/icons?i=python,mysql,javascript,java,html,css&theme=dark" /></div><br><h2 align="center">✧ Ferramentas</h2><div align="center"><img src="https://skillicons.dev/icons?i=git,github,vscode,figma,notion&theme=dark" /></div><br><h2 align="center">♡ Atualmente</h2><div align="center"><table>
-<tr>
-<td align="center" width="250">♡<br>
-<b>Backend</b><br>
-Desenvolvimento de sistemas
+Currently learning, building projects and growing as a developer.
+</p>
 
-</td><td align="center" width="250">✦<br>
-<b>Databases</b><br>
-MySQL e organização de dados
+<br>
 
-</td><td align="center" width="250">✧<br>
-<b>Learning</b><br>
-Java e novas tecnologias
+<h2 align="center">✦ Tech Stack</h2>
 
-</td>
-</tr>
-</table></div><br><div align="center">╭────────────────────────────────────────────╮
-│                                            │
-│       CODE  •  LEARN  •  BUILD  •  GROW    │
-│                                            │
-╰────────────────────────────────────────────╯
+<div align="center">
 
-<br><img src="./heart.png" width="180"/><br><br>
+<img src="https://skillicons.dev/icons?i=python,mysql,javascript,java,html,css,git,vscode&theme=dark" />
 
-<sub>♡ made with code, curiosity and a little bit of coffee ♡</sub>
+</div>
 
-</div><br><div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0:1A1012,50:6B2737,100:D98FA3" width="100%"/></div>Ficou bem mais próximo da referência: menos informação, mais espaço visual, coração como identidade e a paleta #1A1012 + #6B2737 + #D98FA3 + #F5E9D8.
+<br>
+
+<h2 align="center">⌁ Current Focus</h2>
+
+<div align="center">
+
+`Backend` &nbsp; `Databases` &nbsp; `Software Development`
+
+</div>
+
+<br><br>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=D98FA3&width=500" />
+
+<br><br>
+
+<h3>♡ system_heart.py</h3>
+
+```python
+import turtle
+import math
+import random
+
+screen = turtle.Screen()
+screen.bgcolor("#0D090A")
+
+heart = turtle.Turtle()
+heart.speed(0)
+heart.hideturtle()
+heart.pensize(1)
+
+colors = [
+    "#C94F6D",
+    "#D98FA3",
+    "#F5E9D8",
+    "#B84A62"
+]
+
+for i in range(120):
+
+    heart.penup()
+    heart.goto(0, 40)
+
+    angle = i * (math.pi * 2) / 120
+
+    x = 16 * (math.sin(angle) ** 3) * 15
+
+    y = (
+        13 * math.cos(angle)
+        - 5 * math.cos(2 * angle)
+        - 2 * math.cos(3 * angle)
+        - math.cos(4 * angle)
+    ) * 15
+
+    heart.color(random.choice(colors))
+
+    heart.pendown()
+    heart.goto(x, y)
+
+    for _ in range(8):
+        heart.forward(6)
+        heart.backward(6)
+        heart.right(45)
+
+turtle.done()
