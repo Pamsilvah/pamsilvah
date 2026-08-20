@@ -1,7 +1,7 @@
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:1A1012,50:6B2737,100:D98FA3&text=SRTA.%20PAMELA%20SILVA&fontSize=38&fontColor=F5E9D8&fontAlignY=40&animation=fadeIn&desc=Systems%20Development%20Technician&descAlignY=62&descSize=16&descColor=F5E9D8" width="100%"/><br><img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=500&size=18&duration=3000&pause=1000&color=D98FA3&center=true&vCenter=true&width=650&lines=Python+%7C+MySQL+%7C+JavaScript;Building+ideas+into+projects.;Always+learning+something+new." /><br><br>
 
-<img src="./heart.png" width="420"/><br>       ♡
+       ♡
       ♡♡♡
      ♡♡♡♡♡
     ♡♡♡♡♡♡♡
