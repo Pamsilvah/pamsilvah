@@ -48,12 +48,8 @@ Currently learning, building projects and growing as a developer.
 
 <br><br>
 
-<h3>♡ system_heart.py</h3>
+<h3>♡ heart.py</h3>
 
-
-<div align="center">
-
-<img src="./heart.svg" width="300">
 
 </div>
 
